@@ -1,7 +1,5 @@
 from opensearchpy import OpenSearch, exceptions
 from flask import Flask, request, Response, url_for, render_template, redirect
-import requests
-import features
 import json
 from utils import set_key
 
